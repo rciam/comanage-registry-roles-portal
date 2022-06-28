@@ -197,7 +197,7 @@ $petitionsPendingApproval = array_filter($petitions, function($row) {
 // Reset the indexes
 $petitionsPendingApproval = array_values($petitionsPendingApproval);
 // Release Resources
-pg_free_result($petitions);
+pg_free_result($petitionsResult);
 pg_close($db_conn);
 ?>
 
@@ -451,7 +451,6 @@ pg_close($db_conn);
         }
 
         $("input[type='submit']").on('click', function () {
-            debugger;
             $(".lds-spinner").show();
         });
     });

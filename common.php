@@ -1,5 +1,11 @@
 <?php
-require 'libphp-phpmailer/PHPMailerAutoload.php';
+#require 'libphp-phpmailer/PHPMailerAutoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require_once "vendor/autoload.php";
+
 require_once('./configuration.php');
 
 /**
