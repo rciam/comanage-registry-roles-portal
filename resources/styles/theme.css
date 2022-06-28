@@ -1,0 +1,136 @@
+body {
+}
+
+ul li {
+	font-weight: 300;
+}
+
+.form-check {
+	margin-bottom: 0;
+}
+
+.form-check-label {
+	padding-left: 0;
+	font-weight: normal;
+}
+
+.form-check-input {
+	margin-left: -1.75rem;
+}
+
+div.card {
+	margin-bottom: 20px;
+	border-radius: 0;
+}
+
+.form-submit-container {
+	margin: 20px 0;
+}
+
+input[type="submit"].themed-button {
+	-webkit-appearance: button;
+	cursor: pointer;
+	background-color: #fff;
+	color: #4ca19c;
+	border-color: #68b8b3;
+	letter-spacing: 1px;
+	font-size: 11px;
+	padding: 12px 18px;
+	line-height: 1.4;
+	border-radius: 0;
+	border: 1px solid;
+	white-space: normal;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	touch-action: manipulation;
+	background-image: none;
+	text-transform: uppercase;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.btn-primary.green {
+	border-color: #4ca19c;
+	color: #4ca19c;
+}
+
+.btn-primary.green:hover {
+	color: #fff;
+	background-color: #4ca19c;
+	border-color: #4ca19c;
+	text-decoration: none;
+}
+
+.btn-primary.red {
+	border-color: #e04a4a;
+	color: #e04a4a;
+}
+
+.btn-primary.red:hover {
+	color: #fff;
+	background-color: #e04a4a;
+	border-color: #e04a4a;
+	text-decoration: none;
+}
+
+.btn-primary.greenish,.btn-primary.greenish:hover, .btn-primary.greenish:active, .btn-primary.greenish:not([disabled]):not(.disabled):active {
+	color: #fff;
+	background: none;
+	background-color: #4ca19c;
+	border-color: #4ca19c;
+	text-decoration: none;
+	border-radius: 0;
+	letter-spacing: 1px;
+	font-weight: 300;
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 12px 18px;
+}
+
+table th, table td {
+	vertical-align: middle !important;
+}
+
+.btn-primary.disabled {
+	background: white;
+	border-color: #ababab;
+	color: #ababab;
+	cursor: not-allowed;
+}
+
+.table-header {
+	font-family: 'Open Sans', sans-serif !important;
+	text-transform: none!important;
+	font-weight: 300;
+	font-size: 18px;
+	padding: .75rem 1.25rem;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.subtle {
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif !important;
+	text-transform: none!important;
+	font-weight: 300;
+}
+
+.ssp-btns-container--btn__right.ssp-btn {
+	margin-left: 0;
+	margin-bottom: 0;
+	line-height: 14px;
+}
+
+.ssp-btn__red:hover {
+	color: #e04a4a;
+}
+
+.ssp-btn__green:hover {
+	color: #4ca19c;
+}

@@ -1,0 +1,46 @@
+<?php
+require_once('./configuration.php');
+$DEBUG = TRUE;
+
+$api_base_url = "https://example.org/registry";
+$api_username = "api_user";
+$api_password = "api_pass";
+
+$db_host = "localhost";
+$db_username = "db_user";
+$db_password = "db_pass";
+$db_name = "registry";
+
+$uid_key = "eduPersonPrincipalName";
+$username_key = "displayName";
+
+$email_host = "localhost";
+$email_port = 25;
+//leave blank the rest of the fields if not needed
+$email_security = "";
+$email_username = "";
+$email_password = "";
+$email_from_address = "noreply@example.org";
+$email_from_name = "RCIAM Login Notifications";
+$email_subject = "New Notification for RCIAM User Community";
+$email_admin_url = "https://example.org/roles/admin.php";
+
+$ccEmails = array(
+    array(
+      "email" => "support@example.org",
+      "name" => "RCIAM Login Support",
+    ),
+);
+
+$co_name = array(
+    "My CO",
+);
+
+$non_removable_roles = array(
+);
+
+$non_listed_roles = array(
+    "myrole",
+);
+
+?>
