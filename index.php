@@ -592,7 +592,6 @@ if($petition_roles) {
 
     $(document).ready(function () {
         $("input[type='submit']").on('click', function () {
-            debugger;
             $(".lds-spinner").show();
         });
     });
